@@ -9,23 +9,22 @@
 <body>
     <h1>Grāmatu Vērtēšana</h1><br>
     <form action="/submit.php" method="POST">
-        <label for="fname">Vārds</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Uzvārds</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="level">Līmenis</label><br>
-        <select id="level" name="level" size="5"><br>
+        <label for="full_name">Vārds Uzvārds</label><br>
+        <input type="text" id="full_name" name="full_name"><br>
+        <label for="rating">Līmenis</label><br>
+        <select id="rating" name="rating" size="5"><br>
             <option value="1">Nelasāma</option>
             <option value="2">Slikta</option>
             <option value="3">Viduvēja</option>
             <option value="4">Laba</option>
             <option value="5">Lieliska</option>
         </select><br>
-        <label for="bname">Nosaukums</label><br>
-        <input type="text" id="bname" name="bname"><br>
-        <label for="review">Apraksts</label><br>
-        <textarea id="review" name="review"></textarea><br>
+        <label for="book_title">Nosaukums</label><br>
+        <input type="text" id="book_title" name="book_title"><br>
+        <label for="review_text">Apraksts</label><br>
+        <textarea id="review_text" name="review_text"></textarea><br>
         <input type="submit">
     </form>
+    <a href="list.php">Saraksts</a>
 </body>
 </html>
