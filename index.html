@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Grāmatu Vērtēšana</h1><br>
-    <form>
+    <form action="/submit.php">
         <label for="fname">Vārds</label><br>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Uzvārds</label><br>
@@ -23,8 +23,9 @@
         </select><br>
         <label for="bname">Nosaukums</label><br>
         <input type="text" id="bname" name="bname"><br>
-        <label for="review">Atsauksme</label><br>
+        <label for="review">Apraksts</label><br>
         <textarea id="review" name="review"></textarea><br>
+        <input type="submit">
     </form>
 </body>
 </html>
